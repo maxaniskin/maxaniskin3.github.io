@@ -1,0 +1,22 @@
+
+@font-face {
+	font-family: 'Pelagy';
+	src: url('../fonts/Pelagy.ttf');
+	
+	font-weight: normal;
+	font-style: normal;
+}
+.clear {
+	clear: both;
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+::selection {
+	color: #fff;
+	}
+::-moz-selection {
+	color: #fff;
+}
