@@ -1,0 +1,294 @@
+# Query: parallax
+# ContextLines: 1
+
+Результаты: 74 - Файлы 21
+
+404.html:
+  118  
+  119:     <section id="breadcrumbs" class="color_section parallax">
+  120          <div class="container">
+
+  359          <script src="js/vendor/jquery.scrollTo-min.js"></script>
+  360:         <script src='js/vendor/jquery.parallax-1.1.3.js'></script>
+  361  
+
+about.html:
+  118  
+  119:     <section id="breadcrumbs" class="color_section parallax">
+  120          <div class="container">
+
+  542          <script src="js/vendor/jquery.scrollTo-min.js"></script>
+  543:         <script src='js/vendor/jquery.parallax-1.1.3.js'></script>
+  544  
+
+animation.html:
+  118  
+  119:     <section id="breadcrumbs" class="color_section parallax">
+  120          <div class="container">
+
+  585          <script src="js/vendor/jquery.scrollTo-min.js"></script>
+  586:         <script src='js/vendor/jquery.parallax-1.1.3.js'></script>
+  587  
+
+blog-right.html:
+  119  
+  120:     <section id="breadcrumbs" class="color_section parallax">
+  121          <div class="container">
+
+  665          <script src="js/vendor/jquery.scrollTo-min.js"></script>
+  666:         <script src='js/vendor/jquery.parallax-1.1.3.js'></script>
+  667  
+
+blog-single-right.html:
+  119  
+  120:     <section id="breadcrumbs" class="color_section parallax">
+  121          <div class="container">
+
+  667          <script src="js/vendor/jquery.scrollTo-min.js"></script>
+  668:         <script src='js/vendor/jquery.parallax-1.1.3.js'></script>
+  669  
+
+blog-single.html:
+  117  
+  118:     <section id="breadcrumbs" class="color_section parallax">
+  119          <div class="container">
+
+  665          <script src="js/vendor/jquery.scrollTo-min.js"></script>
+  666:         <script src='js/vendor/jquery.parallax-1.1.3.js'></script>
+  667  
+
+blog.html:
+  118  
+  119:     <section id="breadcrumbs" class="color_section parallax">
+  120          <div class="container">
+
+  664          <script src="js/vendor/jquery.scrollTo-min.js"></script>
+  665:         <script src='js/vendor/jquery.parallax-1.1.3.js'></script>
+  666  
+
+contact.html:
+  118  
+  119:     <section id="breadcrumbs" class="color_section parallax">
+  120          <div class="container">
+
+  407          <script src="js/vendor/jquery.scrollTo-min.js"></script>
+  408:         <script src='js/vendor/jquery.parallax-1.1.3.js'></script>
+  409  
+
+CREDITS.html:
+  42  	    <li><a href="http://fractionslider.jacksbox.de">jquery.fractionslider.min.js</a> is a great slider plugin for main slider</li>
+  43: 	    <li><a href="http://www.ianlunn.co.uk/plugins/jquery-parallax/">jquery.parallax-1.1.3.js</a> is used for parallax backgrounds.</li>
+  44  	    <li><a href="https://github.com/morr/jquery.appear/">jquery.appear.js</a> is used for find out is HTML element in in browser viewport</li>
+
+gallery-single.html:
+  118  
+  119:     <section id="breadcrumbs" class="color_section parallax">
+  120          <div class="container">
+
+  503          <script src="js/vendor/jquery.scrollTo-min.js"></script>
+  504:         <script src='js/vendor/jquery.parallax-1.1.3.js'></script>
+  505  
+
+gallery.html:
+  118  
+  119:     <section id="breadcrumbs" class="color_section parallax">
+  120          <div class="container">
+
+  488          <script src="js/vendor/jquery.scrollTo-min.js"></script>
+  489:         <script src='js/vendor/jquery.parallax-1.1.3.js'></script>
+  490  
+
+icons.html:
+   118  
+   119:     <section id="breadcrumbs" class="color_section parallax">
+   120          <div class="container">
+
+  1611          <script src="js/vendor/jquery.scrollTo-min.js"></script>
+  1612:         <script src='js/vendor/jquery.parallax-1.1.3.js'></script>
+  1613  
+
+index.html:
+  204  
+  205: <section id="progress" class="dark_section parallax">
+  206      <div class="container">
+
+  251  
+  252: <section id="skills" class="grey_section parallax">
+  253      <div class="container">
+
+  521          <script src="js/vendor/jquery.scrollTo-min.js"></script>
+  522:         <script src='js/vendor/jquery.parallax-1.1.3.js'></script>
+  523  
+
+services.html:
+  118  
+  119:     <section id="breadcrumbs" class="color_section parallax">
+  120          <div class="container">
+
+  731          <script src="js/vendor/jquery.scrollTo-min.js"></script>
+  732:         <script src='js/vendor/jquery.parallax-1.1.3.js'></script>
+  733  
+
+shortcodes.html:
+   118  
+   119:     <section id="breadcrumbs" class="color_section parallax">
+   120          <div class="container">
+
+  1601          <script src="js/vendor/jquery.scrollTo-min.js"></script>
+  1602:         <script src='js/vendor/jquery.parallax-1.1.3.js'></script>
+  1603  
+
+css\main.css:
+   817  */
+   818: /*parallax*/
+   819: .parallax {
+   820    background-attachment: fixed !important;
+
+   831  @media (max-width: 767px) {
+   832:   .parallax {
+   833      -webkit-background-size: auto auto !important;
+
+   838  }
+   839: .parallax:after {
+   840    content: '';
+
+   849  
+   850: .parallax.grey_section:after {
+   851    background-color: #f8f8f8;
+
+   854  
+   855: .parallax.color_section:after {
+   856    background-color: #4D91BA;
+
+   858  
+   859: .parallax.dark_section:after {
+   860    background-color: #1a1a1a;
+
+   862  
+   863: .parallax.darkgrey_section:after {
+   864    background-color: #343434;
+
+   866  
+   867: .parallax > .container, .gradient > .container {
+   868    z-index: 3;
+
+  2430  #progress {;
+  2432  }
+
+  2434  #skills {
+  2435:   background-image: url(../example/parallax/skills.jpg);
+  2436  }
+
+css\main2.css:
+   817  */
+   818: /*parallax*/
+   819: .parallax {
+   820    background-attachment: fixed !important;
+
+   831  @media (max-width: 767px) {
+   832:   .parallax {
+   833      -webkit-background-size: auto auto !important;
+
+   838  }
+   839: .parallax:after {
+   840    content: '';
+
+   849  
+   850: .parallax.grey_section:after {
+   851    background-color: #f8f8f8;
+
+   854  
+   855: .parallax.color_section:after {
+   856    background-color: #5fcca3;
+
+   858  
+   859: .parallax.dark_section:after {
+   860    background-color: #1a1a1a;
+
+   862  
+   863: .parallax.darkgrey_section:after {
+   864    background-color: #343434;
+
+   866  
+   867: .parallax > .container, .gradient > .container {
+   868    z-index: 3;
+
+  2430  #progress {
+  2431:   background-image: url(../example/parallax/progress.jpg);
+  2432  }
+
+  2434  #skills {
+  2435:   background-image: url(../example/parallax/skills.jpg);
+  2436  }
+
+css\main3.css:
+   817  */
+   818: /*parallax*/
+   819: .parallax {
+   820    background-attachment: fixed !important;
+
+   831  @media (max-width: 767px) {
+   832:   .parallax {
+   833      -webkit-background-size: auto auto !important;
+
+   838  }
+   839: .parallax:after {
+   840    content: '';
+
+   849  
+   850: .parallax.grey_section:after {
+   851    background-color: #f8f8f8;
+
+   854  
+   855: .parallax.color_section:after {
+   856    background-color: #ffbb19;
+
+   858  
+   859: .parallax.dark_section:after {
+   860    background-color: #1a1a1a;
+
+   862  
+   863: .parallax.darkgrey_section:after {
+   864    background-color: #343434;
+
+   866  
+   867: .parallax > .container, .gradient > .container {
+   868    z-index: 3;
+
+  2430  #progress {
+  2431:   background-image: url(../example/parallax/progress.jpg);
+  2432  }
+
+  2434  #skills {
+  2435:   background-image: url(../example/parallax/skills.jpg);
+  2436  }
+
+js\main.js:
+  120  
+  121: 	//parallax
+  122: 	if (jQuery().parallax) {
+  123: 		jQuery('#progress').parallax("50%", 0.4);
+  124: 		jQuery('#skills').parallax("50%", 0.3);
+  125  	}
+
+js\vendor\jquery.parallax-1.1.3.js:
+   1  /*
+   2: Plugin: jQuery Parallax
+   3  Version 1.1.3
+
+   6  Author URL: http://www.ianlunn.co.uk/
+   7: Plugin URL: http://www.ianlunn.co.uk/plugins/jquery-parallax/
+   8  
+
+  21  
+  22: 	$.fn.parallax = function(xpos, speedFactor, outerHeight) {
+  23  		var $this = $(this);
+
+  27  		
+  28: 		//get the starting position of each element to have parallax applied to it		
+  29  		$this.each(function(){
+
+C:\Users\susle\Downloads\hecatehtml\hecatehtml\Hecate template — копия (2) — копия\index.html:
+  55  </head>
+  56: <!-- hijacking: on/off - animation: none/scaleDown/rotate/gallery/catch/opacity/fixed/parallax -->
+  57  <body class="royal_loader" data-hijacking="off" data-animation="rotate">	
